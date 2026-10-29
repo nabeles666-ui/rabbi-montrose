@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="An audio archive of Torah lectures by Rabbi Montrose, recorded from 2012 to 2015.">
+  <title>Rabbi Montrose — Audio Archive</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="hero">
+    <nav aria-label="Main navigation">
+      <a class="wordmark" href="#top">Rabbi Montrose</a>
+      <a href="#archive">Audio archive</a>
+    </nav>
+    <div class="hero-copy" id="top">
+      <p class="eyebrow">Torah lectures · 2012–2015</p>
+      <h1>Recorded teachings,<br><em>preserved with care.</em></h1>
+      <p class="intro">A listening archive of 33 lectures and discussions, presented in their original chronology.</p>
+      <a class="cta" href="#archive">Explore the archive <span aria-hidden="true">↓</span></a>
+    </div>
+    <div class="ornament" aria-hidden="true"><span>ל</span></div>
+  </header>
+
+  <main>
+    <section class="archive" id="archive">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">The collection</p>
+          <h2>Audio archive</h2>
+        </div>
+        <p class="count"><strong id="visibleCount">33</strong> recordings</p>
+      </div>
+      <div class="controls">
+        <label class="search-label" for="search">Search by date</label>
+        <input id="search" type="search" placeholder="Try 2014 or January" autocomplete="off">
+        <div class="filters" role="group" aria-label="Filter by year">
+          <button class="active" data-year="all">All</button>
+          <button data-year="2015">2015</button>
+          <button data-year="2014">2014</button>
+          <button data-year="2013">2013</button>
+          <button data-year="2012">2012</button>
+        </div>
+      </div>
+      <div id="recordings" class="recordings"></div>
+      <p id="emptyState" class="empty" hidden>No recordings match that search.</p>
+    </section>
+
+    <section class="about">
+      <p class="eyebrow">About the archive</p>
+      <h2>Listening across the years</h2>
+      <p>These recordings were digitized from a private physical archive. Dates shown here follow the original recording filenames; where no talk title was available, the recording date serves as the title.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>Rabbi Montrose Audio Archive</p>
+    <a href="#top">Back to top ↑</a>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
