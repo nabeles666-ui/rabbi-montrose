@@ -57,3 +57,8 @@ footer a { text-decoration: none; }
   .about p:last-child { margin: 0; }
 }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+
+.lecture-notes { grid-column: 2 / -1; max-width: 800px; line-height: 1.65; }
+.lecture-notes p { margin: 0 0 1rem; }
+.lecture-notes h4 { margin: 0; font-size: 1rem; }
+.lecture-notes ul { margin: .5rem 0 0; padding-left: 1.3rem; }

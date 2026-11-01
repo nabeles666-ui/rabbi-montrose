@@ -13,3 +13,8 @@ A static GitHub Pages website preserving a collection of Torah lecture recording
 ## Local preview
 
 Serve this folder with any static web server and open `index.html`.
+
+## Named lectures added November 2026
+
+- Vayera (13:39) and Chayei Sarah (10:00): original MP3 recordings, with editorial summaries and main points based on the recordings. Original recording dates are unconfirmed; filesystem modification dates are not treated as recording dates.
+- Summaries paraphrase the speaker’s views; tentative interpretations remain identified as tentative.
