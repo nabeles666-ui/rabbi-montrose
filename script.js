@@ -37,7 +37,7 @@ document.querySelectorAll('[data-year]').forEach(button => button.addEventListen
   render();
 }));
 
-fetch('data/recordings.json')
+fetch('data/recordings.json?v=20261102')
   .then(response => { if (!response.ok) throw new Error(`HTTP ${response.status}`); return response.json(); })
   .then(data => { recordings = data; render(); })
   .catch(error => {
