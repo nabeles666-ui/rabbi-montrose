@@ -62,3 +62,5 @@ footer a { text-decoration: none; }
 .lecture-notes p { margin: 0 0 1rem; }
 .lecture-notes h4 { margin: 0; font-size: 1rem; }
 .lecture-notes ul { margin: .5rem 0 0; padding-left: 1.3rem; }
+.topics, .attribution { font-size: .9rem; color: var(--sage); }
+.transcript-link { font-weight: 700; }
