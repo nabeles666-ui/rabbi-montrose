@@ -41,7 +41,12 @@ button:hover, button:focus-visible, button.active { color: var(--cream); border-
 .index { color: var(--gold); font: 700 .7rem/1 system-ui, sans-serif; letter-spacing: .08em; }
 .recording h3 { margin: 0 0 .35rem; font-size: clamp(1.2rem, 2vw, 1.6rem); font-weight: 400; }
 .meta { margin: 0; color: var(--sage); font: .72rem/1.4 system-ui, sans-serif; letter-spacing: .05em; text-transform: uppercase; }
-audio { width: min(38vw, 390px); height: 40px; accent-color: var(--sage); }
+audio, video { width: min(38vw, 390px); accent-color: var(--sage); }
+audio { height: 40px; }
+video { max-height: 220px; background: #101813; }
+.unverified { padding-left: .8rem; border-left: 3px solid var(--gold); }
+.question { display: inline-grid; place-items: center; width: 1.45rem; height: 1.45rem; margin-left: .45rem; border-radius: 50%; color: var(--cream); background: var(--gold); font: 700 .78rem/1 system-ui, sans-serif; vertical-align: .2rem; }
+.resource-links { display: flex; gap: 1rem; flex-wrap: wrap; }
 .about { display: grid; grid-template-columns: 1fr 2fr; gap: 2rem; padding: clamp(5rem, 9vw, 9rem) clamp(1.3rem, 5vw, 5rem); color: var(--paper); background: var(--sage); }
 .about .eyebrow { color: #e0c79a; }
 .about p:last-child { max-width: 620px; margin: 0 0 0 auto; color: rgba(244,239,228,.78); font-size: 1.25rem; line-height: 1.65; }
@@ -52,7 +57,7 @@ footer a { text-decoration: none; }
   .hero { min-height: 90vh; }
   .controls { grid-template-columns: 1fr; }
   .recording { grid-template-columns: 2rem 1fr; }
-  audio { grid-column: 2; width: 100%; }
+  audio, video { grid-column: 2; width: 100%; }
   .about { grid-template-columns: 1fr; }
   .about p:last-child { margin: 0; }
 }
