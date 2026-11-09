@@ -1,0 +1,26 @@
+# Shiur summary — machine generated, review required
+
+Source: /Volumes/G-RAID4/Backups.backupdb/andrew abeles’s MacBook Pro/2014-06-23-072714/Macintosh HD/Users/andrewabeles/Downloads/Montrose_MenorahDuplication.mp3
+
+Speaker identity: see catalog for provisional contextual attribution. Identity is not verified.
+
+## Part 1
+
+{
+  "subject": "Unclear fragment",
+  "principal_teachings": [],
+  "references": [],
+  "speaker_context": [
+    "Shia speaker recording live in Ramatbeh Shemesh, Israel"
+  ]
+}
+
+## Part 2
+
+{
+  "subject": "Unclear fragment",
+  "principal_teachings": [],
+  "references": [],
+  "speaker_context": []
+}
+

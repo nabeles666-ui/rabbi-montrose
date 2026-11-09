@@ -1,0 +1,53 @@
+# Shiur summary — machine generated, review required
+
+Source: /Volumes/G-RAID4/hard disk 6 (buffalo1)/Aba all Dec 23 2009/aba all Oct. 2009/aba/ May 18 2009 desktop/rabbis shurim/r.montrose megila/meglia17.WMA
+
+Speaker identity: see catalog for provisional contextual attribution. Identity is not verified.
+
+## Part 1
+
+{
+  "subject": "Unclear fragment",
+  "principal_teachings": [],
+  "references": [],
+  "speaker_context": [
+    "I'm gonna try to finish the Gamara first then we have some stuff to talk about as far as what exactly is going on over here."
+  ]
+}
+
+## Part 2
+
+{
+  "subject": "Unclear fragment",
+  "principal_teachings": [],
+  "references": [],
+  "speaker_context": []
+}
+
+## Part 3
+
+{
+  "subject": "Unclear fragment",
+  "principal_teachings": [],
+  "references": [],
+  "speaker_context": []
+}
+
+## Part 4
+
+{
+  "subject": "Unclear fragment",
+  "principal_teachings": [],
+  "references": [],
+  "speaker_context": []
+}
+
+## Part 5
+
+{
+  "subject": "Unclear fragment",
+  "principal_teachings": [],
+  "references": [],
+  "speaker_context": []
+}
+
