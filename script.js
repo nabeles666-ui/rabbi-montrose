@@ -19,7 +19,7 @@ function normalizeLikely(item) {
     title: item.filename,
     summary: 'Machine transcript and summary; attribution requires human review.',
     topics: [],
-    audio: item.media,
+    audio: item.media.replace(/\.wma$/i, '.mp3'),
     transcript: item.transcript ? `g-raid4-likely/${item.transcript}` : null,
     summaryUrl: item.summary ? `g-raid4-likely/${item.summary}` : null,
     speakerNote: '? Likely Rabbi Montrose from filename or folder context — not human verified.',
