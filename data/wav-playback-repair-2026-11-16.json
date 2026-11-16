@@ -1,0 +1,363 @@
+{
+  "date": "2026-11-16",
+  "note": "Browser playback links switched to MP3 copies; original WAV assets preserved.",
+  "recordings": [
+    {
+      "id": "985feafed43a2acb",
+      "title": "montrose angel of death.wav",
+      "original": "https://github.com/nabeles666-ui/rabbi-montrose/releases/download/audio-archive/985feafed43a2acb.wav",
+      "replacement": "https://github.com/nabeles666-ui/rabbi-montrose/releases/download/audio-archive/985feafed43a2acb.mp3",
+      "sourceProbe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "adpcm_ima_wav",
+            "sample_rate": "16000",
+            "channels": 2
+          }
+        ],
+        "format": {
+          "duration": "2596.273875"
+        }
+      },
+      "convertedAudioDecodeVerified": true
+    },
+    {
+      "id": "ba2becdc69b7add1",
+      "title": "REC001.WAV",
+      "original": "https://github.com/nabeles666-ui/rabbi-montrose/releases/download/audio-archive/ba2becdc69b7add1.wav",
+      "replacement": "https://github.com/nabeles666-ui/rabbi-montrose/releases/download/audio-archive/ba2becdc69b7add1.mp3",
+      "sourceProbe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "adpcm_ima_wav",
+            "sample_rate": "8000",
+            "channels": 1
+          }
+        ],
+        "format": {
+          "duration": "1988.480000"
+        }
+      },
+      "convertedAudioDecodeVerified": true
+    },
+    {
+      "id": "566f18628edfd52c",
+      "title": "REC005.WAV",
+      "original": "https://github.com/nabeles666-ui/rabbi-montrose/releases/download/audio-archive/566f18628edfd52c.wav",
+      "replacement": "https://github.com/nabeles666-ui/rabbi-montrose/releases/download/audio-archive/566f18628edfd52c.mp3",
+      "sourceProbe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "adpcm_ima_wav",
+            "sample_rate": "8000",
+            "channels": 1
+          }
+        ],
+        "format": {
+          "duration": "2553.728000"
+        }
+      },
+      "convertedAudioDecodeVerified": true
+    },
+    {
+      "id": "c90d12b041fc7527",
+      "title": "r.montrose eilat in israel.WAV",
+      "original": "https://github.com/nabeles666-ui/rabbi-montrose/releases/download/audio-archive/c90d12b041fc7527.wav",
+      "replacement": "https://github.com/nabeles666-ui/rabbi-montrose/releases/download/audio-archive/c90d12b041fc7527.mp3",
+      "sourceProbe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "adpcm_ima_wav",
+            "sample_rate": "8000",
+            "channels": 1
+          }
+        ],
+        "format": {
+          "duration": "2059.776000"
+        }
+      },
+      "convertedAudioDecodeVerified": true
+    },
+    {
+      "id": "29cc61cbe251336b",
+      "title": "ani mehafech.WAV",
+      "original": "https://github.com/nabeles666-ui/rabbi-montrose/releases/download/audio-archive/29cc61cbe251336b.wav",
+      "replacement": "https://github.com/nabeles666-ui/rabbi-montrose/releases/download/audio-archive/29cc61cbe251336b.mp3",
+      "sourceProbe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "adpcm_ima_wav",
+            "sample_rate": "8000",
+            "channels": 1
+          }
+        ],
+        "format": {
+          "duration": "2966.912000"
+        }
+      },
+      "convertedAudioDecodeVerified": true
+    },
+    {
+      "id": "b03b538ab3a7182f",
+      "title": "ethiopians and karites.WAV",
+      "original": "https://github.com/nabeles666-ui/rabbi-montrose/releases/download/audio-archive/b03b538ab3a7182f.wav",
+      "replacement": "https://github.com/nabeles666-ui/rabbi-montrose/releases/download/audio-archive/b03b538ab3a7182f.mp3",
+      "sourceProbe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "adpcm_ima_wav",
+            "sample_rate": "8000",
+            "channels": 1
+          }
+        ],
+        "format": {
+          "duration": "3240.704000"
+        }
+      },
+      "convertedAudioDecodeVerified": true
+    },
+    {
+      "id": "e96d6e676b5a1e26",
+      "title": "masig gvul hishtadlut.WAV",
+      "original": "https://github.com/nabeles666-ui/rabbi-montrose/releases/download/audio-archive/e96d6e676b5a1e26.wav",
+      "replacement": "https://github.com/nabeles666-ui/rabbi-montrose/releases/download/audio-archive/e96d6e676b5a1e26.mp3",
+      "sourceProbe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "adpcm_ima_wav",
+            "sample_rate": "8000",
+            "channels": 1
+          }
+        ],
+        "format": {
+          "duration": "302.464000"
+        }
+      },
+      "convertedAudioDecodeVerified": true
+    },
+    {
+      "id": "aa7f1cac5111bcbd",
+      "title": "montrose balav emo.WAV",
+      "original": "https://github.com/nabeles666-ui/rabbi-montrose/releases/download/audio-archive/aa7f1cac5111bcbd.wav",
+      "replacement": "https://github.com/nabeles666-ui/rabbi-montrose/releases/download/audio-archive/aa7f1cac5111bcbd.mp3",
+      "sourceProbe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "adpcm_ima_wav",
+            "sample_rate": "8000",
+            "channels": 1
+          }
+        ],
+        "format": {
+          "duration": "3386.880000"
+        }
+      },
+      "convertedAudioDecodeVerified": true
+    },
+    {
+      "id": "cf95c078c44ed844",
+      "title": "montrose early shabbos.WAV",
+      "original": "https://github.com/nabeles666-ui/rabbi-montrose/releases/download/audio-archive/cf95c078c44ed844.wav",
+      "replacement": "https://github.com/nabeles666-ui/rabbi-montrose/releases/download/audio-archive/cf95c078c44ed844.mp3",
+      "sourceProbe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "adpcm_ima_wav",
+            "sample_rate": "8000",
+            "channels": 1
+          }
+        ],
+        "format": {
+          "duration": "2827.776000"
+        }
+      },
+      "convertedAudioDecodeVerified": true
+    },
+    {
+      "id": "8eb989b937a2e89f",
+      "title": "montrose.WAV",
+      "original": "https://github.com/nabeles666-ui/rabbi-montrose/releases/download/audio-archive/8eb989b937a2e89f.wav",
+      "replacement": "https://github.com/nabeles666-ui/rabbi-montrose/releases/download/audio-archive/8eb989b937a2e89f.mp3",
+      "sourceProbe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "adpcm_ima_wav",
+            "sample_rate": "8000",
+            "channels": 1
+          }
+        ],
+        "format": {
+          "duration": "79.707375"
+        }
+      },
+      "convertedAudioDecodeVerified": true
+    },
+    {
+      "id": "864159026543232e",
+      "title": "r.montrose.WAV",
+      "original": "https://github.com/nabeles666-ui/rabbi-montrose/releases/download/audio-archive/864159026543232e.wav",
+      "replacement": "https://github.com/nabeles666-ui/rabbi-montrose/releases/download/audio-archive/864159026543232e.mp3",
+      "sourceProbe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "adpcm_ima_wav",
+            "sample_rate": "8000",
+            "channels": 1
+          }
+        ],
+        "format": {
+          "duration": "2764.160000"
+        }
+      },
+      "convertedAudioDecodeVerified": true
+    },
+    {
+      "id": "088d8f42db1657e1",
+      "title": "zichut toleh montrose.WAV",
+      "original": "https://github.com/nabeles666-ui/rabbi-montrose/releases/download/audio-archive/088d8f42db1657e1.wav",
+      "replacement": "https://github.com/nabeles666-ui/rabbi-montrose/releases/download/audio-archive/088d8f42db1657e1.mp3",
+      "sourceProbe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "adpcm_ima_wav",
+            "sample_rate": "8000",
+            "channels": 1
+          }
+        ],
+        "format": {
+          "duration": "2142.976000"
+        }
+      },
+      "convertedAudioDecodeVerified": true
+    },
+    {
+      "id": "0c65f49918303380",
+      "title": "r.montrose eating from irreligious jews.wav",
+      "original": "https://github.com/nabeles666-ui/rabbi-montrose/releases/download/audio-archive/0c65f49918303380.wav",
+      "replacement": "https://github.com/nabeles666-ui/rabbi-montrose/releases/download/audio-archive/0c65f49918303380.mp3",
+      "sourceProbe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "adpcm_ima_wav",
+            "sample_rate": "16000",
+            "channels": 2
+          }
+        ],
+        "format": {
+          "duration": "2587.502250"
+        }
+      },
+      "convertedAudioDecodeVerified": true
+    },
+    {
+      "id": "a8d09d698c412229",
+      "title": "montrose mesora.WAV",
+      "original": "https://github.com/nabeles666-ui/rabbi-montrose/releases/download/audio-archive/a8d09d698c412229.wav",
+      "replacement": "https://github.com/nabeles666-ui/rabbi-montrose/releases/download/audio-archive/a8d09d698c412229.mp3",
+      "sourceProbe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "adpcm_ima_wav",
+            "sample_rate": "8000",
+            "channels": 1
+          }
+        ],
+        "format": {
+          "duration": "2344.704000"
+        }
+      },
+      "convertedAudioDecodeVerified": true
+    },
+    {
+      "id": "1594debf80cf421a",
+      "title": "r. montroseREC002.WAV",
+      "original": "https://github.com/nabeles666-ui/rabbi-montrose/releases/download/audio-archive/1594debf80cf421a.wav",
+      "replacement": "https://github.com/nabeles666-ui/rabbi-montrose/releases/download/audio-archive/1594debf80cf421a.mp3",
+      "sourceProbe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "adpcm_ima_wav",
+            "sample_rate": "8000",
+            "channels": 1
+          }
+        ],
+        "format": {
+          "duration": "79.707375"
+        }
+      },
+      "convertedAudioDecodeVerified": true
+    },
+    {
+      "id": "41638cdf3d973bd2",
+      "title": "r.montrose.WAV",
+      "original": "https://github.com/nabeles666-ui/rabbi-montrose/releases/download/audio-archive/41638cdf3d973bd2.wav",
+      "replacement": "https://github.com/nabeles666-ui/rabbi-montrose/releases/download/audio-archive/41638cdf3d973bd2.mp3",
+      "sourceProbe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "adpcm_ima_wav",
+            "sample_rate": "8000",
+            "channels": 1
+          }
+        ],
+        "format": {
+          "duration": "3083.392000"
+        }
+      },
+      "convertedAudioDecodeVerified": true
+    },
+    {
+      "id": "6a6040442e3c04d4",
+      "title": "montrose chafestz chaim shidduch.WAV",
+      "original": "https://github.com/nabeles666-ui/rabbi-montrose/releases/download/audio-archive/6a6040442e3c04d4.wav",
+      "replacement": "https://github.com/nabeles666-ui/rabbi-montrose/releases/download/audio-archive/6a6040442e3c04d4.mp3",
+      "sourceProbe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "adpcm_ima_wav",
+            "sample_rate": "8000",
+            "channels": 1
+          }
+        ],
+        "format": {
+          "duration": "79.707375"
+        }
+      },
+      "convertedAudioDecodeVerified": true
+    }
+  ]
+}

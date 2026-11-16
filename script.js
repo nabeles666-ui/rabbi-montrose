@@ -41,7 +41,7 @@ function render() {
   const visible = recordings.filter(item => {
     const haystack = [item.title, item.summary, ...(item.topics || []), item.date, item.time, item.speakerNote].join(' ').toLowerCase();
     const yearMatch = activeYear === 'all' || (activeYear === 'likely' ? item.unverified : item.date.startsWith(activeYear));
-    return yearMatch && (!term || haystack.includes(term));
+    return !isVideo(item.audio) && yearMatch && (!term || haystack.includes(term));
   });
   list.innerHTML = visible.map((item, i) => `<article class="recording${item.unverified ? ' unverified' : ''}" id="${escapeHtml(item.id)}">
     <span class="index">${String(i + 1).padStart(2, '0')}</span>
@@ -72,11 +72,35 @@ document.addEventListener('play', event => {
 
 Promise.all([
   fetch('data/recordings.json?v=20261116uploads').then(response => { if (!response.ok) throw new Error(`HTTP ${response.status}`); return response.json(); }),
-  fetch('g-raid4-likely/catalog.json?v=20261109').then(response => { if (!response.ok) throw new Error(`HTTP ${response.status}`); return response.json(); })
+  fetch('g-raid4-likely/catalog.json?v=20261116wav').then(response => { if (!response.ok) throw new Error(`HTTP ${response.status}`); return response.json(); })
 ]).then(([curated, likely]) => {
   recordings = [...curated.map(item => ({...item, unverified: false})), ...likely.map(normalizeLikely)];
+  renderVideos();
   render();
 }).catch(error => {
   empty.hidden = false;
   empty.textContent = `The archive index could not be loaded (${error.message}).`;
 });
+
+function renderVideos() {
+  const items = recordings.filter(item => isVideo(item.audio));
+  document.querySelector('#videoCount').textContent = items.length;
+  document.querySelector('#videoGallery').innerHTML = items.map((item, index) => {
+    const key = item.id.replace(/^likely-/, '');
+    const title = 'Video ' + (index + 1) + ' · ' + item.title.replace(/\.[^.]+$/, '');
+    return `<article class="video-card" id="${escapeHtml(item.id)}"><h3>${escapeHtml(title)}</h3><p class="meta">${formatDuration(item.duration)}</p><video controls playsinline preload="none" poster="images/video-posters/${escapeHtml(key)}.jpg" aria-label="${escapeHtml(title)}"><source src="${escapeHtml(item.audio)}" type="video/mp4"></video><button class="watch-video" type="button">▶ Watch video</button><p class="video-status" aria-live="polite"></p><p class="resource-links"><a href="${escapeHtml(item.audio)}" target="_blank" rel="noopener">Open video separately ↗</a>${item.transcript ? `<a href="${escapeHtml(item.transcript)}" target="_blank" rel="noopener">Read transcript →</a>` : ''}${item.summaryUrl ? `<a href="${escapeHtml(item.summaryUrl)}" target="_blank" rel="noopener">Read summary →</a>` : ''}</p></article>`;
+  }).join('');
+  document.querySelectorAll('.video-card').forEach(card => {
+    const video = card.querySelector('video');
+    const button = card.querySelector('.watch-video');
+    const status = card.querySelector('.video-status');
+    button.addEventListener('click', () => {
+      status.textContent = 'Loading video…';
+      video.play().catch(() => { status.textContent = 'Unable to start here. Try the player’s Play control or open the video separately.'; });
+    });
+    video.addEventListener('waiting', () => { status.textContent = 'Loading video…'; });
+    video.addEventListener('playing', () => { status.textContent = ''; button.hidden = true; });
+    video.addEventListener('pause', () => { button.hidden = false; button.textContent = '▶ Continue watching'; });
+    video.addEventListener('error', () => { status.textContent = 'Unable to load the video. Please try “Open video separately” below.'; });
+  });
+}
