@@ -1,0 +1,149 @@
+{
+  "date": "2026-11-16",
+  "source": "/Volumes/ARCHIVE/good stuff to upload/rabbi montrose uploads",
+  "exactDuplicatesSkipped": 16,
+  "added": 4,
+  "comparison": "SHA-256 compared with published release digests and original source manifest. Similar-duration candidates for Bleeding Zekana’s were additionally compared using audio amplitude envelopes; no match.",
+  "files": [
+    {
+      "source": "/Volumes/ARCHIVE/good stuff to upload/rabbi montrose uploads/Mamzerim--Bastards.mp3",
+      "sha256": "4e56a8c8eb6cbb72c97345034a6d15caad0d22b78d514621be1c041f0d278b23",
+      "bytes": 34122984,
+      "status": "added",
+      "existingAsset": null
+    },
+    {
+      "source": "/Volumes/ARCHIVE/good stuff to upload/rabbi montrose uploads/R. Montrose-Bleeding Zekana's.a",
+      "sha256": "ab1626d42de3e3ce81bcb8192b96822004c63305102c29e074416006e14be6a3",
+      "bytes": 359645806,
+      "status": "added",
+      "existingAsset": null
+    },
+    {
+      "source": "/Volumes/ARCHIVE/good stuff to upload/rabbi montrose uploads/R.monrose tape folder4/r.montrose DNA testing.MP3",
+      "sha256": "64948e63a11e9beff84ae7632fcafd26c32403be8e9343dc5102508c4d5e1c1a",
+      "bytes": 32444279,
+      "status": "duplicate_skipped",
+      "existingAsset": "42399085bb3a8a0a.mp3"
+    },
+    {
+      "source": "/Volumes/ARCHIVE/good stuff to upload/rabbi montrose uploads/R.monrose tape folder4/r.montrose etheopians.MP3",
+      "sha256": "56e234e3a1606b789a395a1284423ff529de8c5c323b22f95932ecd3e4b39a56",
+      "bytes": 46261480,
+      "status": "duplicate_skipped",
+      "existingAsset": "d005540b4bc4ca2b.mp3"
+    },
+    {
+      "source": "/Volumes/ARCHIVE/good stuff to upload/rabbi montrose uploads/Where to put the bima.mp3",
+      "sha256": "129c4f8d1e394801deee64154e146be0b826d1174c7a8867438e85aebac425c5",
+      "bytes": 35012979,
+      "status": "added",
+      "existingAsset": null
+    },
+    {
+      "source": "/Volumes/ARCHIVE/good stuff to upload/rabbi montrose uploads/debtors jail.mp3",
+      "sha256": "c7e3c06bf2b436faa97e0f5401412fd69fb841e47c0021cdfee3aa218fd7ced0",
+      "bytes": 22635631,
+      "status": "added",
+      "existingAsset": null
+    },
+    {
+      "source": "/Volumes/ARCHIVE/good stuff to upload/rabbi montrose uploads/montrose-evileye.MP3",
+      "sha256": "4ee535cf4d57b3a559fbec338e49f8b7e214e9b4f5b8793a0e0cb02efad67a34",
+      "bytes": 31396100,
+      "status": "duplicate_skipped",
+      "existingAsset": "d0d629bbf7fb323a.mp3"
+    },
+    {
+      "source": "/Volumes/ARCHIVE/good stuff to upload/rabbi montrose uploads/r. montrose beit hamikdosh.mp3",
+      "sha256": "a4a18683b6086cdc8ebfe734a2d1a4292735da55962b5d7f11aa377709cb9a4f",
+      "bytes": 28989670,
+      "status": "duplicate_skipped",
+      "existingAsset": "6a96456d6f225d2b.mp3"
+    },
+    {
+      "source": "/Volumes/ARCHIVE/good stuff to upload/rabbi montrose uploads/r. montrose blackmail.MP3",
+      "sha256": "0436bea8c1e238eedb2461ba67cc4f236ea0819e6e10fcee5cb7a5395788acb2",
+      "bytes": 24976740,
+      "status": "duplicate_skipped",
+      "existingAsset": "702ba609934de494.mp3"
+    },
+    {
+      "source": "/Volumes/ARCHIVE/good stuff to upload/rabbi montrose uploads/r. montrose civil marriage.MP3",
+      "sha256": "f15e8c736c004391340288e6011b96c26549e7f15d2b0db1f64ba5fa7997276e",
+      "bytes": 50587600,
+      "status": "duplicate_skipped",
+      "existingAsset": "233ee42781c6f116.mp3"
+    },
+    {
+      "source": "/Volumes/ARCHIVE/good stuff to upload/rabbi montrose uploads/r.montrose b'shalach.mp3",
+      "sha256": "73a0bc43bb4e54b5bea92373e1a66068583a862a47aa0cd916ceaa0f01781405",
+      "bytes": 24179215,
+      "status": "duplicate_skipped",
+      "existingAsset": "b4bb8aad4bce9f1c.mp3"
+    },
+    {
+      "source": "/Volumes/ARCHIVE/good stuff to upload/rabbi montrose uploads/r.montrose cohen worships idols.MP3",
+      "sha256": "dc14f9ef221dcfaac5849170eadd739a78f7d0af5a8237f47c9bd4134396f92a",
+      "bytes": 51552843,
+      "status": "duplicate_skipped",
+      "existingAsset": "3b91356067e32256.mp3"
+    },
+    {
+      "source": "/Volumes/ARCHIVE/good stuff to upload/rabbi montrose uploads/r.montrose embarrassing.aiff",
+      "sha256": "c055bf37975cafafe54f139a668946ba92ebce62072270f6b0a6bbc3dd0bb405",
+      "bytes": 537218866,
+      "status": "duplicate_skipped",
+      "existingAsset": "f2401803391d494b.aiff"
+    },
+    {
+      "source": "/Volumes/ARCHIVE/good stuff to upload/rabbi montrose uploads/r.montrose etheopians con..MP3",
+      "sha256": "67a5e315c51df66c59f9acc72f760cfaa11b6bc36f84075fdde32b455c722904",
+      "bytes": 3850952,
+      "status": "duplicate_skipped",
+      "existingAsset": "3768afddf82f4a62.mp3"
+    },
+    {
+      "source": "/Volumes/ARCHIVE/good stuff to upload/rabbi montrose uploads/r.montrose learn what you like.MP3",
+      "sha256": "852c164397460c419340461da3187d2525d87da176c015b26762b780abd73db6",
+      "bytes": 39693042,
+      "status": "duplicate_skipped",
+      "existingAsset": "876919d33937a5cb.mp3"
+    },
+    {
+      "source": "/Volumes/ARCHIVE/good stuff to upload/rabbi montrose uploads/r.montrose leaving israel.MP3",
+      "sha256": "0ef6a105381a6ad08c0d8c372ccddd30e16874c74f22ba22f7f7105572af2199",
+      "bytes": 49545259,
+      "status": "duplicate_skipped",
+      "existingAsset": "1aaeedc926a5b38e.mp3"
+    },
+    {
+      "source": "/Volumes/ARCHIVE/good stuff to upload/rabbi montrose uploads/r.montrose parshat Bo kiddush Hachodesh.mp3",
+      "sha256": "98caaf8fb422d7eedfb61b64d2214c7297928f83f004bebdce4965d00ad3d97a",
+      "bytes": 27841079,
+      "status": "duplicate_skipped",
+      "existingAsset": "4292d529a4073419.mp3"
+    },
+    {
+      "source": "/Volumes/ARCHIVE/good stuff to upload/rabbi montrose uploads/r.montrose pessach motzei shabbas.MP3",
+      "sha256": "c2a07cb4a6dafae946924bfc229355870625a5a09f8956680967b1fbd32191c9",
+      "bytes": 71655635,
+      "status": "duplicate_skipped",
+      "existingAsset": "8529a09f565c2182.mp3"
+    },
+    {
+      "source": "/Volumes/ARCHIVE/good stuff to upload/rabbi montrose uploads/r.montrose. kasher kelim.MP3",
+      "sha256": "5b669b50df6a01f026a174083bd5536f9dfc9a9996b5891e9af94067cf1e4845",
+      "bytes": 40265078,
+      "status": "duplicate_skipped",
+      "existingAsset": "3e05a259dbb214a0.mp3"
+    },
+    {
+      "source": "/Volumes/ARCHIVE/good stuff to upload/rabbi montrose uploads/r.montrose.backing out of agreement.MP3",
+      "sha256": "c42d058ad38652733b93a3a83b347a932bc2ed8e058a33c52ff7f5d2fcf49839",
+      "bytes": 59847870,
+      "status": "duplicate_skipped",
+      "existingAsset": "4bad0fd65798df30.mp3"
+    }
+  ]
+}

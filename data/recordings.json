@@ -1,5 +1,53 @@
 [
   {
+    "id": "mamzerim-bastards",
+    "date": "Undated",
+    "time": "",
+    "duration": 3412.0881,
+    "title": "Mamzerim",
+    "summary": "Title taken from the source filename. Transcript and content summary are not yet available.",
+    "topics": [],
+    "audio": "https://github.com/nabeles666-ui/rabbi-montrose/releases/download/audio-archive/mamzerim-bastards.mp3",
+    "transcript": null,
+    "speakerNote": "Provided as a Rabbi Montrose recording from Andrew Abeles’s archive. Recording date unconfirmed."
+  },
+  {
+    "id": "r-montrose-bleeding-zekana-s",
+    "date": "Undated",
+    "time": "",
+    "duration": 2038.808118,
+    "title": "Bleeding Zekana’s — source recording title",
+    "summary": "Title taken from the source filename. Transcript and content summary are not yet available.",
+    "topics": [],
+    "audio": "https://github.com/nabeles666-ui/rabbi-montrose/releases/download/audio-archive/r-montrose-bleeding-zekana-s.m4a",
+    "transcript": null,
+    "speakerNote": "Provided as a Rabbi Montrose recording from Andrew Abeles’s archive. Recording date unconfirmed."
+  },
+  {
+    "id": "where-to-put-the-bima",
+    "date": "Undated",
+    "time": "",
+    "duration": 3501.0873,
+    "title": "Where to Put the Bima",
+    "summary": "Title taken from the source filename. Transcript and content summary are not yet available.",
+    "topics": [],
+    "audio": "https://github.com/nabeles666-ui/rabbi-montrose/releases/download/audio-archive/where-to-put-the-bima.mp3",
+    "transcript": null,
+    "speakerNote": "Provided as a Rabbi Montrose recording from Andrew Abeles’s archive. Recording date unconfirmed."
+  },
+  {
+    "id": "debtors-jail",
+    "date": "Undated",
+    "time": "",
+    "duration": 2263.3534,
+    "title": "Debtors’ Jail",
+    "summary": "Title taken from the source filename. Transcript and content summary are not yet available.",
+    "topics": [],
+    "audio": "https://github.com/nabeles666-ui/rabbi-montrose/releases/download/audio-archive/debtors-jail.mp3",
+    "transcript": null,
+    "speakerNote": "Provided as a Rabbi Montrose recording from Andrew Abeles’s archive. Recording date unconfirmed."
+  },
+  {
     "id": "2015-03-19-101700",
     "date": "2015-03-19",
     "time": "10:17:00",

@@ -71,7 +71,7 @@ document.addEventListener('play', event => {
 }, true);
 
 Promise.all([
-  fetch('data/recordings.json?v=20261102').then(response => { if (!response.ok) throw new Error(`HTTP ${response.status}`); return response.json(); }),
+  fetch('data/recordings.json?v=20261116uploads').then(response => { if (!response.ok) throw new Error(`HTTP ${response.status}`); return response.json(); }),
   fetch('g-raid4-likely/catalog.json?v=20261109').then(response => { if (!response.ok) throw new Error(`HTTP ${response.status}`); return response.json(); })
 ]).then(([curated, likely]) => {
   recordings = [...curated.map(item => ({...item, unverified: false})), ...likely.map(normalizeLikely)];
